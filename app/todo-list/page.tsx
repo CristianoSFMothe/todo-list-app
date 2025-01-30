@@ -19,9 +19,9 @@ const TodoListPage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center mt-8">
-      <h1 className="text-gray-50 text-2xl font-bold mb-6">
-        Seu Gerenciador de Tarefas
-      </h1>
+      {/* <h1 className="text-gray-50 text-2xl font-bold mb-6">
+        Gerenciador de Tarefas
+      </h1> */}
       <Card className="w-[350px] bg-[#222222]">
         <CardHeader className="text-center">
           <CardTitle>TO DO List</CardTitle>
@@ -38,7 +38,7 @@ const TodoListPage = () => {
                 maxLength={250}
               />
               <Button type="button" className="w-full" onClick={handleAddTask}>
-                <FilePenLine size={20} className="mr-2" />
+                <FilePenLine size={20} className="mr-0" />
                 Adicionar
               </Button>
             </div>
